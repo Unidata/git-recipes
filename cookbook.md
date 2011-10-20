@@ -4,7 +4,7 @@ First you will have to install a git client on your machine. There are also vari
 
 In order to view and contribute to a project hosted at github you must first clone it:
 
-git clone git@github.com:Unidata/IDV.git
+		git clone git@github.com:Unidata/IDV.git
 
 If the project is large, this may take a little while. For the IDV this initial clone may take ~5 minutes.
 
