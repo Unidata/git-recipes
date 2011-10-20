@@ -12,28 +12,28 @@ You now have the complete repository on your local system, and you are ready to 
 
 Make a modification to a file (e.g., README) in your newly cloned repository. Now try
 
-git status
-
+		git status
+				
 This command yields:
 
-# On branch master
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   README
-#
-no changes added to commit (use "git add" and/or "git commit -a")
-
+		# On branch master
+		# Changes not staged for commit:
+		#   (use "git add <file>..." to update what will be committed)
+		#   (use "git checkout -- <file>..." to discard changes in working directory)
+		#
+		#	modified:   README
+		#
+		no changes added to commit (use "git add" and/or "git commit -a")
+				
 This is saying that the file is in the repository, but it has been modified and not commited to the repository.
 
 You can commit that change to repository with
 
-commit -m "Added stuff" README
+		commit -m "Added stuff" README
 
 Now you are ready to share your committed work with the world
 
-git push
+		git push
 
 Will push out your changes to github for others to see.
 
