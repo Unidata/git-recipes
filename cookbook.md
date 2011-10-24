@@ -30,6 +30,9 @@ This is saying that the file is in the repository, but it has been modified and 
 You can commit that change to repository with
 
 		commit -m "Added stuff" README
+		
+Now perhaps you would like to work on a new file. Try editing a new file (e.g., stuff.txt).
+
 
 Now you are ready to share your committed work with the world
 
@@ -37,3 +40,7 @@ Now you are ready to share your committed work with the world
 
 Will push out your changes to github for others to see.
 
+
+A very common operation in git is to branch. Branches and merges in git have almost no cost associated to them so they are done very frequently. In order to create a branch simply 
+
+		git branch my-experiment
