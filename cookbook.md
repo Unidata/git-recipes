@@ -1,4 +1,6 @@
-Here are a few tips on getting you going with git and github
+### Git Basics
+
+Here are a few tips on getting you going with git and github.
 
 First you will have to install a git client on your machine. There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
 
@@ -41,6 +43,21 @@ Now you are ready to share your committed work with the world
 Will push out your changes to github for others to see.
 
 
-A very common operation in git is to branch. Branches and merges in git have almost no cost associated to them so they are done very frequently. In order to create a branch simply 
+### Branching and Merging
+
+A very common operation in git is to branch. Branches and merges in git have almost no cost associated to them so they are done very frequently. Typically, when you are working on a new feature, fixing bugs, or experimenting with code, you will create a new branch. In order to create a branch and start working on that branch.
 
 		git branch my-experiment
+ 		git checkout my-experiment
+
+You can list the branches that are available to you with
+
+ 		git branches
+
+When you have made a number of commits to your branch and you are ready to bring those changes back into the trunk or a "bigger branch", you will
+
+		git checkout other-branch
+		git merge my-experiment
+		
+		
+
