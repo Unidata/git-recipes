@@ -1,16 +1,20 @@
 ### Git Basics
 
-Here are a few tips on getting you going with git and github.
+Here are a few tips on getting you going with git and github. We are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit").
 
 First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
 
-In order to view and contribute to a project hosted at github you must first clone it:
+In order to view and contribute to a project hosted at github you must first clone it. Also, please obtain a github login and let Julien know your login name.
 
 		git clone git@github.com:Unidata/IDV.git
 
 If the project is large, this may take a little while. For the IDV this initial clone may take ~5 minutes.
 
-You now have the complete repository on your local system, and you are ready to start working on your project. Note that to commit files to git, you do not need to be connected to the Internet. You have the complete repository in your local file system. (We will talk about how to share your contributions later.)
+You now have the complete repository on your local system, and you are ready to start working on your project. To make sure your repository has been cloned. Try typing 
+
+		git log --stat
+
+Note that to commit files to git, you do not need to be connected to the Internet. You have the complete repository in your local file system. (We will talk about how to share your contributions later.)
 
 Make a modification to a file (e.g., README) in your newly cloned repository. Now try
 
@@ -31,16 +35,20 @@ This is saying that the file is in the repository, but it has been modified and 
 
 You can commit that change to repository with
 
-		commit -m "Added stuff" README
+		git commit -m "Added stuff" README
 		
-Now perhaps you would like to work on a new file. Try editing a new file (e.g., stuff.txt).
+Now perhaps you would like to work on a new file. Try editing a new file (e.g., stuff.txt). You will first have to add that file to the repository
+
+		git add stuff.txt
+		
+Now commit your added as descibed above.
 
 
-Now you are ready to share your committed work with the world
+At this point,  you are ready to share your committed work with the world
 
 		git push
 
-Will push out your changes to github for others to see.
+This command will push out your changes to github for others to see.
 
 
 ### Branching and Merging
