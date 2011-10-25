@@ -41,15 +41,13 @@ Now perhaps you would like to work on a new file. Try editing a new file (e.g., 
 
 		git add stuff.txt
 		
-Now commit your added as descibed above.
-
+Now commit your new file as descibed above.
 
 At this point,  you are ready to share your committed work with the world
 
 		git push
 
 This command will push out your changes to github for others to see.
-
 
 ### Branching and Merging
 
@@ -67,7 +65,7 @@ When you have made a number of commits to your branch and you are ready to bring
 		git checkout other-branch
 		git merge my-experiment
 		
-
 As you get more comfortable with branching and merging, you will eventually want to learn how to [re-write commit history](http://progit.org/book/ch6-4.html) before you share your changes to the world. This may seem like an esoteric feature, but it actually really nice when sharing your work with the world.
 
 ### Other useful git commands
+
