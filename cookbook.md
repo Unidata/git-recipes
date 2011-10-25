@@ -70,3 +70,4 @@ When you have made a number of commits to your branch and you are ready to bring
 
 As you get more comfortable with branching and merging, you will eventually want to learn how to [re-write commit history](http://progit.org/book/ch6-4.html) before you share your changes to the world. This may seem like an esoteric feature, but it actually really nice when sharing your work with the world.
 
+### Other useful git commands
