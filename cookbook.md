@@ -69,3 +69,8 @@ As you get more comfortable with branching and merging, you will eventually want
 
 ### Other useful git commands
 
+This command will undo commits. Do not do this if the commits have already been pushed!
+
+		git reset --soft [SHA1] 
+		
+		
