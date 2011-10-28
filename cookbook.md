@@ -4,7 +4,7 @@ Here are a few tips on getting you going with git and github. We are just scratc
 
 First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
 
-In order to view and contribute to a project hosted at github you must first clone it. Also, please obtain a github login and let Julien know your login name.
+In order to view and contribute to a project hosted at github you must first clone it. Also, [please obtain a github login](https://github.com/signup/free) and let Julien know your login name.
 
 		git clone git@github.com:Unidata/IDV.git
 
