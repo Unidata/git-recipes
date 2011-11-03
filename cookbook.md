@@ -75,7 +75,7 @@ git log is very powerful. Here is a [http://pyrtsa.posterous.com/aligning-your-g
 
 #### Undoing stuff
 
-First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo commits (for example if you wish to improve your commit messages). To undo your last commit:
+First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo local commits (for example if you wish to improve your commit messages). To undo your last commit:
 
 		git reset --soft HEAD^
 
@@ -94,8 +94,3 @@ Sometimes you want to go back and look at an old commit. First do a git log to f
 When you are done, and want to go back to the current commit
 
 		git checkout master
-
-
-
-
-
