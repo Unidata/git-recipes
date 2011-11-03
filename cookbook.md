@@ -71,7 +71,7 @@ As you get more comfortable with branching and merging, you will eventually want
 
 #### Better log output
 
-git log is very powerful. Here is a [http://pyrtsa.posterous.com/aligning-your-git-logs](nice alias) to make git log a bit easier to view.
+git log is very powerful. Here is a [nice alias](http://pyrtsa.posterous.com/aligning-your-git-logs) to make git log a bit easier to view.
 
 #### Undoing stuff
 
