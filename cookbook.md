@@ -1,6 +1,6 @@
 ### Git Basics
 
-Here are a few tips on getting you going with git and github. We are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit").
+Here are a few tips on getting you going with git and github. We are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit") or [Version Control by Example](http://www.ericsink.com/vcbe/index.html).
 
 First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
 
