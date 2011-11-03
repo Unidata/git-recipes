@@ -69,8 +69,33 @@ As you get more comfortable with branching and merging, you will eventually want
 
 ### Other useful git commands
 
-This command will undo commits. Do not do this if the commits have already been pushed!
+#### Better log output
+
+git log is very powerful. Here is a [http://pyrtsa.posterous.com/aligning-your-git-logs](nice alias) to make git log a bit easier to view.
+
+#### Undoing stuff
+
+First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo commits (for example if you wish to improve your commit messages). To undo your last commit:
+
+		git reset --soft HEAD^
+
+If you wish to go back to an arbitrary commit, first do a git log, then
 
 		git reset --soft [SHA1] 
-		
-		
+			
+This is useful when working on a local branch and you want to squash a bunch of trivial commit into one meaningful commit that you wish to share with e world.
+
+#### Going back to a prevous commit
+
+Sometimes you want to go back and look at an old commit. First do a git log to find the SHA1 of the commit you are interested in. Then
+
+		git checkout [SHA1] 
+
+When you are done, and want to go back to the current commit
+
+		git checkout master
+
+
+
+
+
