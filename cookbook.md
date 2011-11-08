@@ -1,6 +1,6 @@
 ### Git Basics
 
-Here are a few tips on getting you going with git and github. We are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit") or [Version Control by Example](http://www.ericsink.com/vcbe/index.html).
+If you are coming from an SVN or CVS world one concept you will have to understand immediately is that those version control systems conflate commit and publication. When you do an SVN commit, you are not only committing your work to the version control system, but you are also *sharing* it with the rest of the world. Distributed version control systems like git decouple the notion of commit and publication. Having made that contrast with earlier version control systems, here are a few tips on getting you going with git and github. Note that we are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit") or [Version Control by Example](http://www.ericsink.com/vcbe/index.html).
 
 First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
 
@@ -31,7 +31,7 @@ This command yields:
 		#
 		no changes added to commit (use "git add" and/or "git commit -a")
 				
-This is saying that the file is in the repository, but it has been modified and not commited to the repository.
+This is saying that the file is in the repository, but it has been modified and not committed to the repository.
 
 You can commit that change to repository with
 
@@ -41,7 +41,7 @@ Now perhaps you would like to work on a new file. Try editing a new file (e.g., 
 
 		git add stuff.txt
 		
-Now commit your new file as descibed above.
+Now commit your new file as described above.
 
 At this point,  you are ready to share your committed work with the world
 
@@ -85,7 +85,7 @@ If you wish to go back to an arbitrary commit, first do a git log, then
 			
 This is useful when working on a local branch and you want to squash a bunch of trivial commit into one meaningful commit that you wish to share with the world.
 
-#### Going back to a prevous commit
+#### Going back to a previous commit
 
 Sometimes you want to go back and look at an old commit. First do a git log to find the SHA1 of the commit you are interested in. Then
 
