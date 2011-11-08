@@ -2,7 +2,9 @@
 
 If you are coming from an SVN or CVS world one concept you will have to understand immediately is that those version control systems conflate commit and publication. When you do an SVN commit, you are not only committing your work to the version control system, but you are also *sharing* it with the rest of the world. Distributed version control systems like git decouple the notion of commit and publication. Having made that contrast with earlier version control systems, here are a few tips on getting you going with git and github. Note that we are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit") or [Version Control by Example](http://www.ericsink.com/vcbe/index.html).
 
-First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs, but this document will initially focus on interacting with git from the command line.
+First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs (like [egit for eclipse](http://eclipse.org/egit/)), but this document will initially focus on interacting with git from the command line.
+
+This is usually the point at which people have trouble with their SSH keys that github requires to establish secure connections. Please [see instructions here](http://help.github.com/mac-set-up-git/) for setting up your SSH keys.
 
 In order to view and contribute to a project hosted at github you must first clone it. Also, [please obtain a github login](https://github.com/signup/free) and let Julien know your login name.
 
