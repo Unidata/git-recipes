@@ -76,12 +76,12 @@ As you get more comfortable with branching and merging, you will eventually want
 The .gitconfig file is the place where you set up git customizations (e.g., aliases, etc). Here is an example of a .gitconfig
 
 		[user]
-				name = Julien Chastang
-				email = julien.c.chastang@gmail.com
+				name = Tommy DeVito
+				email = Tommy.DeVito@goodfellas.com
 		[core]
 				editor = emacs -nw
 		[diff]
-				external = /Users/chastang/git/bin/meldwrapper.sh
+				external = ~/git/bin/meldwrapper.sh
 
 #### diffs
 
