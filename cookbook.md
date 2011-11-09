@@ -71,6 +71,33 @@ As you get more comfortable with branching and merging, you will eventually want
 
 ### Other useful git commands
 
+#### configuration
+
+The .gitconfig file is the place where you set up git customizations (e.g., aliases, etc). Here is an example of a .gitconfig
+
+`[user]
+        name = Julien Chastang
+        email = julien.c.chastang@gmail.com
+[core]
+        editor = emacs -nw
+[diff]
+        external = /Users/chastang/git/bin/meldwrapper.sh
+`
+
+#### diffs
+
+As with any version control system, it is often necessary to see differences between different versions of files or commits. git offers a lot of flexibility in this area, but here are some simple scenarios:
+
+*diffing a file has been modified but not committed*
+
+		git diff [file]
+
+*diffing between two commits*
+
+		git diff [SHA1] [SHA1]
+
+Note that if you want a more attractive visual diff, you will have to configure the diff program of your choosing in your .gitconfig
+
 #### Better log output
 
 git log is very powerful. Here is a [nice alias](http://pyrtsa.posterous.com/aligning-your-git-logs) to make git log a bit easier to view.
