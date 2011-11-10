@@ -77,7 +77,7 @@ When you are done with a branch and have merged your changes
 
 #### configuration
 
-The .gitconfig file is the place where you set up git customizations (e.g., aliases, etc). Here is an example of a .gitconfig
+The .gitconfig file is the place where you set up git customizations (e.g., aliases, etc). Here is an example of a .gitconfig that lives in your home directory
 
 		[user]
 				name = Tommy DeVito
@@ -90,7 +90,7 @@ The .gitconfig file is the place where you set up git customizations (e.g., alia
 
 #### ignore
 
-The .gitignore files instructs git to ignore certain types of files, for example, ~ emacs files. Here is an example of a .gitignore file
+The .gitignore files instructs git to ignore certain types of files, for example, ~ emacs files. Here is an example of a .gitignore file which lives at the top of the git repository
 
 		#java specific
 		*.class
