@@ -1,4 +1,4 @@
-### Git Basics
+# Git Basics
 
 If you are coming from an SVN or CVS world, one concept you will have to understand immediately is that those version control systems conflate commit and publication. When you do an SVN commit, you are not only committing your work to the version control system, but you are also *sharing* it with the rest of the world. Distributed version control systems like git decouple the notion of commit and publication. Having made that contrast with earlier version control systems, here are a few tips on getting you going with git and github. Note that we are just scratching the surface here. Please take an afternoon to read [Progit](http://progit.org "Progit") or [Version Control by Example](http://www.ericsink.com/vcbe/index.html).
 
@@ -51,7 +51,7 @@ At this point,  you are ready to share your committed work with the world
 
 This command will push out your changes to github for others to see.
 
-### Branching and Merging
+## Branching and Merging
 
 A very common operation in git is to branch. Branches and merges in git have almost no cost associated to them so they are done very frequently. Typically, when you are working on a new feature, fixing bugs, or experimenting with code, you will create a new branch. In order to create a branch and start working on that branch.
 
@@ -73,9 +73,9 @@ When you are done with a branch and have merged your changes
 
 		git branch -D my-experiment
 
-### Other useful git commands
+## Other useful git commands
 
-#### configuration
+### configuration
 
 The .gitconfig file is the place where you set up git customizations (e.g., aliases, etc). Here is an example of a .gitconfig that lives in your home directory
 
@@ -88,7 +88,7 @@ The .gitconfig file is the place where you set up git customizations (e.g., alia
 				external = ~/git/bin/meldwrapper.sh
 
 
-#### ignore
+### ignore
 
 The .gitignore files instructs git to ignore certain types of files, for example, ~ emacs files. Here is an example of a .gitignore file which lives at the top of the git repository
 
@@ -102,15 +102,15 @@ The .gitignore files instructs git to ignore certain types of files, for example
 		*.swp
 		*.out
 
-#### diffs
+### diffs
 
 As with any version control system, it is often necessary to see differences between different versions of files or commits. git offers a lot of flexibility in this area, but here are some simple scenarios:
 
-*diffing a file has been modified but not committed*
+#### diffing a file has been modified but not committed
 
 		git diff [file]
 
-*diffing between two commits*
+#### diffing between two commits
 
 		git diff [SHA1] [SHA1]
 
