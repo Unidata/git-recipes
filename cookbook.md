@@ -69,6 +69,10 @@ When you have made a number of commits to your branch and you are ready to bring
 		
 As you get more comfortable with branching and merging, you will eventually want to learn how to [re-write commit history](http://progit.org/book/ch6-4.html) before you share your changes to the world. This may seem like an esoteric feature, but it actually really nice when sharing your work with the world.
 
+When you are done with a branch and have merged your changes
+
+		git branch -D my-experiment
+
 ### Other useful git commands
 
 #### configuration
@@ -82,6 +86,21 @@ The .gitconfig file is the place where you set up git customizations (e.g., alia
 				editor = emacs -nw
 		[diff]
 				external = ~/git/bin/meldwrapper.sh
+
+
+#### ignore
+
+The .gitignore files instructs git to ignore certain types of files, for example, ~ emacs files. Here is an example of a .gitignore file
+
+		#java specific
+		*.class
+
+		## generic files to ignore
+		*~
+		*.lock
+		*.DS_Store
+		*.swp
+		*.out
 
 #### diffs
 
