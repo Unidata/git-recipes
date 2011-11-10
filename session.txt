@@ -1,0 +1,43 @@
+git clone https://github.com/Unidata/git-recipes.git
+
+cd git-recipes
+
+git log --stat
+
+git l50
+
+# Note the SHA-1 commit that serves as a unique identifier for each commit
+
+git status
+
+# Edit README
+
+emacs README
+
+git status
+
+git commit -m "Added stuff" README
+
+# If the file was not present you would have to add or stage it with
+
+git add [file]
+
+# Push out your changes to github
+
+git push
+
+# In practice you will create branches for issues
+
+git branch my-issue-1
+
+git checkout my-issue-1
+
+# Make a bunch of edits and commits
+
+git lg
+
+git checkout master
+
+git merge my-issue-1
+
+git branch -D my-issue
