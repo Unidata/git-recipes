@@ -116,11 +116,11 @@ As with any version control system, it is often necessary to see differences bet
 
 Note that if you want a more attractive visual diff, you will have to configure the diff program of your choosing in your .gitconfig
 
-#### Better log output
+### Better log output
 
 git log is very powerful. Here is a [nice alias](http://pyrtsa.posterous.com/aligning-your-git-logs) to make git log a bit easier to view.
 
-#### Undoing stuff
+### Undoing stuff
 
 First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo local commits (for example if you wish to improve your commit messages). To undo your last commit:
 
@@ -132,7 +132,7 @@ If you wish to go back to an arbitrary commit, first do a git log, then
 			
 This is useful when working on a local branch and you want to squash a bunch of trivial commit into one meaningful commit that you wish to share with the world.
 
-#### Going back to a previous commit
+### Going back to a previous commit
 
 Sometimes you want to go back and look at an old commit. First do a git log to find the SHA1 of the commit you are interested in. Then
 
