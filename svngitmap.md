@@ -1,6 +1,7 @@
 # svn git mapping
 
 <table>
+<tr><th>svn command</th><th>git command</th></tr>
 <tr><td>svn checkout url</td><td>git clone url</td></tr>
 <tr><td>svn update</td><td>git pull</td></tr>
 <tr><td>svn diff</td><td>git diff</td></tr>
