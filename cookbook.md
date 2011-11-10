@@ -157,3 +157,9 @@ When you are done, and want to go back to the current commit
 <tr><td>svn commit</td><td>git commit file; git push</td></tr>
 <tr><td>svn log</td><td>git log</td></tr>
 </table>
+
+## Collaborative work flows
+
+When working with external collaborators, you will want to use github to facilitate this process. In particular, the collaborator will navigate to a github project page and **fork** the project (with the fork button) into their github account. 
+
+At this point, the collaborator will *clone their fork* and work in their forked environment for a while. Once the collaborator is ready to contribute back to the project they will submit a **pull request** via github. Again, note the *pull request* button. This will initiate a github process where the collaborator can add information about  their contributions. Once the pull request is submitted, the project owner will receive a message concerning a pull request submitted by the collaborator. 
