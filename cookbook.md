@@ -171,7 +171,11 @@ See [here](http://help.github.com/send-pull-requests/) for for a full discussion
 ## Resources
 
 [github](http://github.com)
+
 [How to do a pull request](http://help.github.com/send-pull-requests/)
+
 [Progit](http://progit.org)
+
 [Version Control by Example](http://www.ericsink.com/vcbe/index.html)
+
 [egit for eclipse](http://eclipse.org/egit/)
