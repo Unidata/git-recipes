@@ -4,7 +4,7 @@ If you are coming from an SVN or CVS world, one concept you will have to underst
 
 First you will have to [install a git client on your machine](http://progit.org/book/ch1-4.html "Installing Git"). There are also various git GUIs (like [egit for eclipse](http://eclipse.org/egit/)), but this document will initially focus on interacting with git from the command line.
 
-This is usually the point at which people have trouble with their SSH keys which github requires to establish secure connections. Please [see instructions here](http://help.github.com/mac-set-up-git/) for setting up your SSH keys. If you are on OSX and want to include your github password on your keychain so that you do not have to authenticate when pushing, see [here](http://samuel.kadolph.com/2011/03/store-your-git-https-passwords-in-your-os-x-keychain/).
+This is usually the point at which people have trouble with their SSH keys which github requires to establish secure connections. Please [see instructions here](http://help.github.com/mac-set-up-git/) for setting up your SSH keys. If you are on OS X and want to include your github password on your keychain so that you do not have to authenticate when pushing, see [here](http://samuel.kadolph.com/2011/03/store-your-git-https-passwords-in-your-os-x-keychain/).
 
 In order to view and contribute to a project hosted at github you must first clone it. Also, [please obtain a github login](https://github.com/signup/free) and let Julien know your login name.
 
@@ -144,7 +144,7 @@ When you are done, and want to go back to the current commit
 
 ## svn git mappings
 
-If you are comming from SVN, here are some mappings to help you transition to git.
+If you are coming from SVN, here are some mappings to help you transition to git.
 
 <table>
 <tr><th>svn command</th><th>git command</th></tr>
@@ -164,4 +164,14 @@ If you are comming from SVN, here are some mappings to help you transition to gi
 
 When working with external collaborators, you will want to use github to facilitate this process. In particular, the collaborator will navigate to a github project page and **fork** the project (with the fork button) into their github account. 
 
-At this point, the collaborator will *clone their fork* and work in their forked environment for a while. After cloning, It is a best practice for the collaborator to set up a topic branch. Once the collaborator is ready to contribute back to the project they will submit a **pull request** via github. Again, note the *pull request* button. This will initiate a github process where the collaborator can add information about  their contributions. Once the pull request is submitted, the project owner will receive a message concerning a pull request submitted by the collaborator.  This is your opportunity to preview the pull request via github. Note that an open pull requests have a discussion area for you and collaborator to communicate about their contributions.
+At this point, the collaborator will *clone their fork* and work in their forked environment for a while. After cloning, it is a best practice for the collaborator to set up a topic branch. Once the collaborator is ready to contribute back to the project, they will submit a **pull request** via github. Again, note the *pull request* button. This will initiate a github process where the collaborator can add information about  their contributions. Once the pull request is submitted, the project owner will receive a message concerning a pull request submitted by the collaborator.  This is your opportunity to preview the pull request via github. Note that an open pull requests have a discussion area for you and the collaborator to communicate about their contributions.
+
+See [here](http://help.github.com/send-pull-requests/) for for a full discussion on this topic.
+
+## Resources
+
+[github](http://github.com)
+[How to do a pull request](http://help.github.com/send-pull-requests/)
+[Progit](http://progit.org)
+[Version Control by Example](http://www.ericsink.com/vcbe/index.html)
+[egit for eclipse](http://eclipse.org/egit/)
