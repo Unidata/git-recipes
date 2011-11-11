@@ -33,7 +33,7 @@ This command yields:
 		#
 		no changes added to commit (use "git add" and/or "git commit -a")
 				
-This is saying that the file is in the repository, but it has been modified and not committed to the repository.
+This is saying that the file is in the repository, but it has been modified and it is not committed.
 
 You can commit that change to repository with
 
@@ -67,7 +67,7 @@ When you have made a number of commits to your branch and you are ready to bring
 		git checkout other-branch
 		git merge my-experiment
 		
-As you get more comfortable with branching and merging, you will eventually want to learn how to [re-write commit history](http://progit.org/book/ch6-4.html) before you share your changes to the world. This may seem like an esoteric feature, but it actually really nice when sharing your work with the world.
+As you get more comfortable with branching and merging, you will eventually want to learn how to [re-write commit history](http://progit.org/book/ch6-4.html) before you share your changes to the world. Rewritting commit history, or rebasing as it is known in git, can be important to keep the version control history clean and orderly.
 
 When you are done with a branch and have merged your changes
 
@@ -118,7 +118,7 @@ Note that if you want a more attractive visual diff, you will have to configure 
 
 ### Better log output
 
-git log is very powerful. Here is a [nice alias](http://pyrtsa.posterous.com/aligning-your-git-logs) to make git log a bit easier to view.
+git log is very powerful and flexible. Here is a [nice alias](http://pyrtsa.posterous.com/aligning-your-git-logs) to make git log a bit easier to view.
 
 ### Undoing stuff
 
@@ -143,6 +143,8 @@ When you are done, and want to go back to the current commit
 		git checkout master
 
 ## svn git mappings
+
+If you are comming from SVN, here are some mappings to help you transition to git.
 
 <table>
 <tr><th>svn command</th><th>git command</th></tr>
