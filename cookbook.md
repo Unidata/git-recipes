@@ -179,3 +179,5 @@ See [here](http://help.github.com/send-pull-requests/) for for a full discussion
 [Version Control by Example](http://www.ericsink.com/vcbe/index.html)
 
 [egit for eclipse](http://eclipse.org/egit/)
+
+[A Tale of Three Trees](http://www.infoq.com/presentations/A-Tale-of-Three-Trees)
