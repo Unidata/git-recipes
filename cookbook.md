@@ -132,7 +132,7 @@ If you wish to go back to an arbitrary commit, first do a git log, then
 			
 This is useful when working on a local branch and you want to squash a bunch of trivial commit into one meaningful commit that you wish to share with the world.
 
-### Going back to a previous commit
+### Checking out to a previous commit
 
 Sometimes you want to go back and look at an old commit. First do a git log to find the SHA1 of the commit you are interested in. Then
 
