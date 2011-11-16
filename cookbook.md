@@ -122,11 +122,15 @@ git log is very powerful and flexible. Here is a [nice alias](http://pyrtsa.post
 
 ### Undoing stuff
 
-First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo local commits (for example if you wish to improve your commit messages). To undo your last commit:
+First a word of warning. Do not undo commits have already been pushed out (to github)! With that out of the way, sometimes it is necessary to undo local commits (for example if you wish to improve your commit messages or add a file to your commit). To undo your last commit:
 
 		git reset --soft HEAD^
 
-If you wish to go back to an arbitrary commit, first do a git log, then
+Alternatively, you can us the command
+
+		git commit --amend
+
+If you wish to go back to an arbitrary commit, first do a git log to find the SHA1 identifier, then
 
 		git reset --soft [SHA1] 
 			
