@@ -33,3 +33,7 @@ A: `git mergetool`
 Q: How do I push a local branch to github (e.g. github)
 
 A: `git push origin newfeature`
+
+Q: How do I rename a branch
+
+A: `git branch -m old_branch new_branch`
