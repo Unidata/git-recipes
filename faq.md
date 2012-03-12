@@ -26,6 +26,10 @@ Q: How do I delete a branch?
 
 A: `git branch -d my-branch`
 
+Q: How do I delete a remote branch?
+
+A: `git push origin :my-branch`
+
 Q: How do I resolve a merge conflict?
 
 A: `git mergetool`
