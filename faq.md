@@ -37,3 +37,19 @@ A: `git push origin newfeature`
 Q: How do I rename a branch
 
 A: `git branch -m old_branch new_branch`
+
+Q: How do I stash (usually uncommitted) work?
+
+A: `git stash save "work in progress for foo feature"`
+
+Q: How can I see what is on the stash queue?
+
+A: `git stash list`
+
+Q: How do I unstash what I just stashed?
+
+A: `git stash apply`
+
+Q: How do I clear the stash list?
+
+A: `git stash clear`
