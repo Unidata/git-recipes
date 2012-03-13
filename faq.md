@@ -57,3 +57,7 @@ A: `git stash apply`
 Q: How do I clear the stash list?
 
 A: `git stash clear`
+
+Q: How do I edit my last commit message in git?
+
+A: Assuming you have not pushed out your changes, `git commit --amend`
