@@ -61,3 +61,7 @@ A: `git stash clear`
 Q: How do I edit my last commit message in git?
 
 A: Assuming you have not pushed out your changes, `git commit --amend`
+
+Q: I am in merge conflict hell because of whitespace or EOL differences. This sometimes happens when people are committing files from different operating systems (e.g., Unix and Windows). What do I do?
+
+A: You can try your git command `--ignore-whitespace `. For example `git rebase master --ignore-whitespace`.
