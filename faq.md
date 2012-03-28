@@ -34,7 +34,7 @@ Q: How do I resolve a merge conflict?
 
 A: `git mergetool`
 
-Q: How do I push a local branch to github (e.g. github)
+Q: How do I push a local branch to github
 
 A: `git push origin newfeature`
 
