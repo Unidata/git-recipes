@@ -65,3 +65,7 @@ A: Assuming you have not pushed out your changes, `git commit --amend`
 Q: I am in merge conflict hell because of whitespace or EOL differences. This sometimes happens when people are committing files from different operating systems (e.g., Unix and Windows). What do I do?
 
 A: You can try your git command with `--ignore-whitespace `. For example `git rebase master --ignore-whitespace`.
+
+Q: How can I see what files I changed at a particular commit?
+
+A: `git log -p -1 --name-only 49bb54a` or `git show --pretty="format:" --name-only 49bb54a`
