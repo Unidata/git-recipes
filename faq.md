@@ -26,7 +26,7 @@ Q: How do I delete a branch?
 
 A: `git branch -d my-branch`
 
-Q: How do I delete a remote branch?
+Q: How do I delete a remote branch that has been deleted locally?
 
 A: `git push origin :my-branch`
 
