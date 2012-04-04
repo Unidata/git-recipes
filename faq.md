@@ -16,7 +16,7 @@ A: `git remote add test git://github.com/user/test.git`
 
 Q: How do I delete a remote branch?
 
-A: `git remote rm my-branch`
+A: `git push origin :my-branch`
 
 Q: How do you remove untracked files from your git working copy?
 
@@ -25,10 +25,6 @@ A: ⚠  `git clean -f -d`
 Q: How do I delete a branch?
 
 A: `git branch -d my-branch`
-
-Q: How do I delete a remote branch that has been deleted locally?
-
-A: `git push origin :my-branch`
 
 Q: How do I resolve a merge conflict?
 
@@ -69,3 +65,7 @@ A: You can try your git command with `--ignore-whitespace `. For example `git re
 Q: How can I see what files I changed at a particular commit?
 
 A: `git log -p -1 --name-only 49bb54a` or `git show --pretty="format:" --name-only 49bb54a`
+
+Q: How do I operate on a git repository from outside the git repository?
+
+A: `git --git-dir=/tmp/repo/.git --work-tree=/tmp/repo pull`
