@@ -69,3 +69,7 @@ A: `git log -p -1 --name-only 49bb54a` or `git show --pretty="format:" --name-on
 Q: How do I operate on a git repository from outside the git repository?
 
 A: `git --git-dir=/tmp/repo/.git --work-tree=/tmp/repo pull`
+
+Q: How do I pull a remote branch into my local repository so that I can work on it?
+
+A: `git fetch` followed by `git checkout -b my-branch origin/my-branch`
