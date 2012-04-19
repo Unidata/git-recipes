@@ -77,3 +77,7 @@ A: `git --git-dir=/tmp/repo/.git --work-tree=/tmp/repo pull`
 Q: How do I pull a remote branch into my local repository so that I can work on it?
 
 A: `git fetch` followed by `git checkout -b my-branch origin/my-branch`
+
+Q: How do I make git ignore mode changes (chmod)?
+
+A: From inside your git repo `git config core.filemode false`
