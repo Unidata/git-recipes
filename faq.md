@@ -50,6 +50,10 @@ Q: How do I unstash what I just stashed?
 
 A: `git stash apply`
 
+Q: How do I unstash a stash that is not at the top of the stash queue?
+
+A: `git stash apply "stash@{1}"`. The double quotes can be important depending on what shell you are using. Otherwise, your shell may try to interpret the curly braces.
+
 Q: How do I clear the stash list?
 
 A: `git stash clear`
