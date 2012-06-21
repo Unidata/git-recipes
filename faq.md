@@ -81,3 +81,7 @@ A: `git fetch` followed by `git checkout -b my-branch origin/my-branch`
 Q: How do I make git ignore mode changes (chmod)?
 
 A: From inside your git repo `git config core.filemode false`
+
+Q: How do I prune branches that no longer exist remotely
+
+A: `git remote prune`
