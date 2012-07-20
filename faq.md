@@ -97,11 +97,13 @@ A: Don't muck with published history. Rather than remove the commits that are no
 `A <-- B <-- C <-- D <-- [(BCD)^-1]      <-- master <-- HEAD`
 - Two solutions:
   - If rolling back a series of commits:
+
 ```
 git checkout -f A -- .
 git commit -a -m <commit msg>
 ```
   - If need to select commits to roll back:
+
 ```
 git revert --no-commit D
 git revert --no-commit C
