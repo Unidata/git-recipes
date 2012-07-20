@@ -98,16 +98,16 @@ A: Don't muck with published history. Rather than remove the commits that are no
 - Two solutions:
 1. If rolling back a series of commits:
 
-```
-git checkout -f A -- .
-git commit -a -m <commit msg>
-```
+  ```
+  git checkout -f A -- .
+  git commit -a -m <commit msg>
+  ```
 
 2. If need to select commits to roll back:
 
-```
-git revert --no-commit D
-git revert --no-commit C
-git revert --no-commit B
-git commit -m <commit msg>
-```
+  ```
+  git revert --no-commit D
+  git revert --no-commit C
+  git revert --no-commit B
+  git commit -m <commit msg>
+  ```
