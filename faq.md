@@ -101,13 +101,13 @@ A: Don't muck with published history. Rather than remove the commits that are no
 ```
 git checkout -f A -- .
 git commit -a -m <commit msg>
-'''
+```
 
   - If need to select commits to roll back:
 
-```
+'''
 git revert --no-commit D
 git revert --no-commit C
 git revert --no-commit B
 git commit -m <commit msg>
-'''
+```
