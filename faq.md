@@ -94,17 +94,20 @@ Q: How do I revert or rollback multiple commits?
 
 A: Don't muck with published history. Rather than remove the commits that are no longer needed, perform the inverse of the target commits and commit that change. Here's an example of rolling back B C D.
 
-> A <-- B <-- C <-- D <-- [(BCD)^-1]      <-- master <-- HEAD
->    - Two solutions:
->      - If rolling back a series of commits:
->        #+begin_src sh
->          git checkout -f A -- .
->          git commit -a -m <commit msg>
->        #+end_src
->      - If need to select commits to roll back:
->        #+begin_src sh
->          git revert --no-commit D
->          git revert --no-commit C
->          git revert --no-commit B
->          git commit -m <commit msg>
->        #+end_src
+`A <-- B <-- C <-- D <-- [(BCD)^-1]      <-- master <-- HEAD`
+- Two solutions:
+  - If rolling back a series of commits:
+
+```
+git checkout -f A -- .
+git commit -a -m <commit msg>
+'''
+
+  - If need to select commits to roll back:
+
+```
+git revert --no-commit D
+git revert --no-commit C
+git revert --no-commit B
+git commit -m <commit msg>
+'''
