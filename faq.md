@@ -96,6 +96,7 @@ A: Don't muck with published history. Rather than remove the commits that are no
 
 `A <-- B <-- C <-- D <-- [(BCD)^-1]      <-- master <-- HEAD`
 - Two solutions:
+
 1. If rolling back a series of commits:
 
   ```
