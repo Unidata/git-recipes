@@ -86,6 +86,10 @@ Q: How do I prune branches that no longer exist remotely?
 
 A: `git remote prune`
 
+Q: How do I remove local branches that no longer exist remotely?
+
+A: `git fetch -p`
+
 Q: How do I view an old version of a file?
 
 A: `git show REVISION:path/to/file`  or `git show HEAD~4:src/main.c` or `git show <sha1>:src/main.c`
