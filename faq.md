@@ -4,7 +4,7 @@ Dangerous commands (e.g. you can lose your work) are labelled ⚠.
 
 Q: How do I list all files touched since a certain commit?
 
-A: `git diff --name-only 42fe678`
+A: `git diff --name-only 42fe678` or `git diff --stat 42fe678`
 
 Q: How do I list my remote branches?
 
