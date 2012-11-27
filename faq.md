@@ -119,4 +119,8 @@ A: Don't muck with published history. Rather than remove the commits that are no
 
 Q: How do I generate a useful listing of all commit-messages since the last, tagged release?
 
-A:  `git log <<file option>> --pretty=full $(LAST_VERSION)` where `file option` is one of (in increasing order of verbosity) `--name-only`, `--name-status`, or `--stat`. I've found this useful in generating a CHANGE_LOG file of significant changes since the previous release. 
+A:  `git log <<file option>> --pretty=full $(LAST_VERSION)` where `file option` is one of (in increasing order of verbosity) `--name-only`, `--name-status`, or `--stat`. I've found this useful in generating a CHANGE_LOG file of significant changes since the previous release.
+
+Q: How do I change the author of a commit in git?
+
+A: `git commit --amend --author="Author Name <email@address.com>"`
