@@ -60,7 +60,7 @@ A very common operation in git is to branch. Branches and merges in git have alm
 
 You can list the branches that are available to you with
 
-                git branches
+                git branch
 
 When you have made a number of commits to your branch and you are ready to bring those changes back into the trunk or a "bigger branch", you will
 
